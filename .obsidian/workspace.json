@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "4f7650c37ce7d005",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef7f3d185daea67a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dde62c973d08f3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROS2/topic-service-interface.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "topic-service-interface"
+            }
+          },
+          {
+            "id": "09baf33ccd46bc19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "configuration/git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9367065b0629d494",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d80358874f69b99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24043b0a436505ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "68dcc059d70ff9d2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8123408584f0b663",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "fda8466cad00f930",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f177ec3e4175677",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a946b1664c4d8fce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "configuration/ubuntu-install.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ubuntu-install"
+            }
+          },
+          {
+            "id": "00dda58210681ef7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "configuration/ubuntu-install.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ubuntu-install"
+            }
+          },
+          {
+            "id": "27d64473a4ac60cc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3d262a7d332de552",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "489cbe040d4b9170",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "configuration/ubuntu-install.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ubuntu-install"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "09baf33ccd46bc19",
+  "lastOpenFiles": [
+    "configuration/miniconda-jupyter.md",
+    "ROS2/tf2.md",
+    "ROS2/ros2-tools.md",
+    "ROS2/topic-service-interface.md",
+    "ROS2/Jupyter.md",
+    "configuration/miniconda-Jupyter.md",
+    "configuration/ubuntu-install.md",
+    "configuration/vscode.md",
+    "configuration/zsh.md",
+    "ROS2/param-action.md",
+    "ROS2/node-pkg.md",
+    "ROS2/references.md",
+    "ROS2/images/action_structure.png",
+    "ROS2/images",
+    "configuration/linux-CLI.md",
+    "configuration/cmake.md",
+    "configuration/docker.md",
+    "configuration/safe-rm.md",
+    "ROS2/interface.md",
+    "configuration/git.md",
+    "ROS2/service.md",
+    "tips.md"
+  ]
+}

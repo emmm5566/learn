@@ -5,27 +5,36 @@
 https://blog.csdn.net/kuwola/article/details/127618930?fromshare=blogdetail&sharetype=blogdetail&sharerId=127618930&sharerefer=PC&sharesource=emmm555&sharefrom=from_link
 
 ## 2.vim
-sudo apt install vim
+`sudo apt install vim`
 
-## 3.ROS2，docker，vscode，github桌面版，微信
-wget http://fishros.com/install -O fishros && . fishros
+## 3.docker，vscode
+`wget http://fishros.com/install -O fishros && . fishros`
 
-## 4.QQ
+## 4.QQ，微信，腾讯会议
 https://im.qq.com/linuxqq/  x86版
-uname -m 查看系统架构 
+`uname -m  # 查看系统架构 `
+vscode - QQ 插件
+https://meeting.tencent.com/download/
 
 ## 5.github桌面版
 https://github.com/shiftkey/desktop/releases
 
 ## 6. joplin或obsidian
-sudo snap install joplin-desktop 
-https://obsidian.md/download
+- `sudo snap install joplin-desktop`
+  同步本地仓库 Tools→ Options→ Synchronization→ Synchronisation target
+- https://obsidian.md/download
 
 ## 7.clash-erge或nekoray或v2rayN
 https://nekoray123.com/
 https://doc.6bc.net/
 
-## 8.zsh，foxglove
+## 8.minicoda
+https://www.anaconda.com/download
+
+## 9.zsh
+
+## 10.ROS2，foxglove
+`wget http://fishros.com/install -O fishros && . fishros`
 
 ***
 

@@ -122,3 +122,72 @@ sudo apt --fix-broken install -y
 | rsync | remote sync | 本地/远程文件增量同步 | `rsync [选项] <源> <目标>` |
 | ssh | secure shell | 远程登录服务器 | `ssh [选项] <用户名@服务器IP>` |
 
+***
+
+## Linux常用路径/查找命令
+```
+一、当前路径 & 目录切换
+pwd                # 显示当前绝对路径
+cd 目标路径        # 切换目录
+cd ./make          # 进入同名文件夹（避坑写法）
+cd ..              # 返回上一级
+cd ~               # 回到家目录
+
+二、文件 / 目录查找
+find . -name "*.cpp"                # 当前目录找指定文件
+find / -name "setup.zsh" 2>/dev/null  # 全局查找(屏蔽错误)
+locate 文件名                       # 快速全局查找(先 sudo updatedb)
+ls -l 路径                          # 查看目录详情
+ls -R 路径                          # 递归查看子目录
+
+三、可执行命令定位
+which ros2           # 查找命令可执行路径
+which python3
+whereis ros2         # 查命令+手册+源码路径
+
+四、IP / 网络地址
+ip addr              # 查看网卡与IP
+hostname -I          # 快速输出本机IP
+ping IP/域名         # 网络连通测试
+
+五、路径环境辅助
+echo $PATH           # 查看系统可执行路径
+realpath 文件/目录   # 输出绝对路径
+```
+
+***
+
+## 常用快捷键
+
+```
+# ubuntu
+
+## 窗口管理
+Super  #应用列表，super键即win键（系统键）
+Super + ←/→/↑/↓  #窗口贴边
+Super + Tab  #切换窗口
+PrtSc  #截图
+Alt + F4  #关闭当前窗口
+Ctrl + F4  #关闭当前页面
+Alt + 空格  #窗口操作选择(Alt + 空格 -> Always on Top  #置顶)
+
+## 终端操作 
+Ctrl + Shift + T  #新建终端
+Ctrl + Shift + C/V  #终端复制/粘贴
+Ctrl + L  #清空终端 
+Ctrl + D  #退出终端 
+Tab  #自动补全
+↑/↓  #查看调用上/下一条命令
+
+## 文件管理
+Ctrl + C/V/X  #复制/粘贴/剪切 
+Ctrl + Z  #撤销
+Ctrl + S  #保存
+Ctrl + N  #新建文件夹 
+Ctrl + F  #搜索文件 
+Ctrl + H  #显示隐藏文件
+F2  #重命名
+Delete  #移至回收站 
+
+
+```
