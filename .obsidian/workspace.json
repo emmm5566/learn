@@ -200,10 +200,12 @@
   },
   "active": "09baf33ccd46bc19",
   "lastOpenFiles": [
+    "ROS2/topic-service-interface.md",
+    "configuration/linux-CLI.md",
+    "configuration/git.md",
     "configuration/miniconda-jupyter.md",
     "ROS2/tf2.md",
     "ROS2/ros2-tools.md",
-    "ROS2/topic-service-interface.md",
     "ROS2/Jupyter.md",
     "configuration/miniconda-Jupyter.md",
     "configuration/ubuntu-install.md",
@@ -214,12 +216,10 @@
     "ROS2/references.md",
     "ROS2/images/action_structure.png",
     "ROS2/images",
-    "configuration/linux-CLI.md",
     "configuration/cmake.md",
     "configuration/docker.md",
     "configuration/safe-rm.md",
     "ROS2/interface.md",
-    "configuration/git.md",
     "ROS2/service.md",
     "tips.md"
   ]
